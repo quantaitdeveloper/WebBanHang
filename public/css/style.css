@@ -35,12 +35,13 @@ h2 {font-size:24px}
 
 input:focus:invalid, textarea:focus:invalid, select:focus:invalid { color: #96979d; }
 /* ------------ Header ------------ */
-.headerstrip { height:72px; background:#f25c27 }
+.headerstrip { height:72px; background : #CFCFCF}
 .logo { width:272px; background-color:#fff; text-align:center; height:72px; line-height:72px }
 #topnav .navbar-inner { background:none; border:none; box-shadow:none; filter:none }
 #topnav ul { padding:20px 0 0 0 }
 #topnav ul li { padding:5px 0 }
-#topnav ul li a { box-shadow:none; text-shadow:none; color:#fff; font-size:14px; text-transform:uppercase; background-image:url(../img/sprite.png); background-repeat:no-repeat; background-color:transparent; padding:0 0 0 25px; margin-right:22px }
+#topnav ul li a { box-shadow:none; text-shadow:none; color:#fff; font-size:20px; text-transform:uppercase; background-image:url(../img/sprite.png); background-repeat:no-repeat; background-color:transparent; padding:0 0 0 25px; margin-right:22px }
+#topnav ul li a:hover {color:#f25c27};
 #topnav ul li a.home { background-position:0 0 }
 #topnav ul li a:hover.home, #topnav ul li a.active.home { background-position:0 -31px }
 #topnav ul li a.myaccount { background-position:0 -62px }
@@ -84,8 +85,9 @@ color: #; vertical-align: top; padding: 5px 10px; border-bottom: 1px dashed #E7E
 ul.categorymenu { margin:0px 6px 0px 6px }
 ul.categorymenu > li { position:relative; margin: 0; border-right:1px solid #eec28f }
 ul.categorymenu > li:last-child { border:none }
-ul.categorymenu > li > a { text-decoration: none; display: block; z-index: 6; position: relative; color:#4b5b58!Important; text-transform:uppercase; font-size:14px }
-ul.categorymenu > li:hover > a, ul.categorymenu > li > a.active { color:#fff!important; text-shadow:none; background-color:#f25c27 }
+ul.categorymenu > li > a { text-decoration: none; display: block; z-index: 6; position: relative; color:#4b5b58!Important; text-transform:uppercase; font-size:20px; }
+
+ul.categorymenu > li:hover > a, ul.categorymenu > li > a.active { color:#fff!important; text-shadow:none; background-color:#f25c27; }
 ul.categorymenu > li > div { display: none; padding:15px; position: absolute; top: 97%; left: 7px; z-index: 99999; display: none; float: left; min-width: 120px; margin: 1px 0 0; list-style: none; background-color: #ffffff; border:1px solid #DDDDDD; border-bottom: 4px solid #F25C27; box-shadow : 0 5px 10px rgba(0, 0, 0, 0.2); -moz-box-shadow : 0 5px 10px rgba(0, 0, 0, 0.2);  -webkit-box-shadow : 0 5px 10px rgba(0, 0, 0, 0.2) }
 .dropdown-menu {  padding:15px; position: absolute; top: 97%; left: 7px; z-index: 99999; display: none; float: left; min-width: 120px; margin: 1px 0 0; list-style: none; background-color: #ffffff; border:1px solid #DDDDDD; border-bottom: 4px solid #F25C27; border-radius:0; -moz-border-radius:0; -webkit-border-radius:0  }
 ul.categorymenu > li:hover > div { display: table; width:100%; vertical-align:top }
